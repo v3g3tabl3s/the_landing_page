@@ -5,7 +5,12 @@ body{
     display: flex;
     flex-direction: column;
   }
-
+/*
+  img{
+    width: 200px;
+    height: 200px;
+  }
+*/
 
   .header{
     background-color: red;
@@ -77,24 +82,131 @@ body{
 
   }
 
-  .signup_button{
+  .signup_button, .signup_button2{
     font-size: 14px;
     background: blue;
     border: 1px solid red;
     color: white;
     padding: 8px 16px;
     border-radius: 8px;
-    display: flex;
-    justify-content: center;
+    text-align: center;
+    /*display: flex;
+    justify-content: center;*/
     width: 80px;
     height: 20px;
 
   }
   .dogs_img{
     padding-right: 32px;
+    max-width: 300px;
   }
-
-  img{
+  .dogs{
     width: 200px;
     height: 200px;
+  }
+
+
+  .dogs1{
+    width: 150px;
+    height: 150px;
+
+  }
+
+
+  .random_container{
+    background-color: pink;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 32px;
+    gap: 52px;
+  }
+
+  .random_header{
+    background-color: pink;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    margin-top: 32px;
+
+  }
+
+  .random_info{
+    background-color: pink;
+    max-width: 150px;
+
+  }
+
+  .random_text{
+    font-size: 18px;
+    font-style: normal;
+    font-weight: lighter;
+    background-color: pink;
+
+  }
+
+
+  .quote{
+    /*height: 400px;*/
+    background-color: #E5E7EB;
+    display flex;
+    align-items: center;
+    justify-content: center;
+
+
+
+  }
+
+  .quote_text{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    text-align: center;
+    color: #1F2937;
+    padding-top: 40px;
+  }
+
+  .quote_author{
+    font-size: 50px;
+    font-weight: bolder;
+    text-align: right;
+    padding-top: 30px;
+    padding-right: 25%;
+    padding-bottom: 30px;
+  }
+
+  .content2{
+    width: 70%;
+    height: 300px;
+    background-color: #3882F6;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+  }
+
+  }
+  .info2{
+
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  .sign_header{
+    font-size: 24px;
+    font-weight: extra-bold;
+    color: #1F2937;
+    padding-left: 30px;
+  }
+
+  .sign_text{
+    font-size: 12px;
+    color: #1F2937;
+    font-weight: lighter;
+    padding-left: 30px;
   }
